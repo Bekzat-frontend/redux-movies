@@ -23,7 +23,7 @@ const MovieList = () => {
       {movies.map(({ id, title, rating, image, isFavorite }) => (
         <div key={id}>
           <h1>Title: {title}</h1>
-          <h3>Rating: {rating} / 5</h3>
+          <h3>Rating: {rating} </h3>
           <img src={image} alt={title} />
           <button onClick={() => handleDelete(id)}>Delete</button>
           <button onClick={() => handleToggleFavorite(id, isFavorite)}>

@@ -49,7 +49,7 @@ const MovieForm = () => {
           type="text"
           value={title}
           onChange={titleValue}
-          placeholder="write title of movie"
+          placeholder="title"
         />
       </label>
 
@@ -60,7 +60,7 @@ const MovieForm = () => {
           type="number"
           value={rating}
           onChange={ratingValue}
-          placeholder="write rating of movie"
+          placeholder="rating"
         />
       </label>
 
@@ -71,7 +71,7 @@ const MovieForm = () => {
           type="text"
           value={image}
           onChange={imageValue}
-          placeholder="write url of movie"
+          placeholder="url"
         />
       </label>
 
